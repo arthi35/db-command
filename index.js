@@ -51,6 +51,8 @@ const movies=[{
 "summary":"Remy, a rat, aspires to become a renowned French chef. However, he fails to realise that people despise rodents and will never enjoy a meal cooked by him.",
 "trailer":"https://www.youtube.com/embed/NgsQ8mVkN8w"
 }]
+
+
 //middleware Intercept->converting body to json
 app.use(express.json())
 // const MONGO_URL="mongodb://localhost";
