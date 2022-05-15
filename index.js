@@ -8,7 +8,7 @@ dotenv.config();
 console.log(process.env.PORT);
 const app = express()
 
-const PORT=process.env.PORT;
+const PORT=process.env.PORT||4000;
 const movies=[{
   "id":"100",
 "name":"Iron man 2",
